@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="pagina-interna">
+    <header id="cabecera">
+        <nav class="contenedor">
+            <a href="index.html" class="logo-container">
+                <div class="logo-circular">A</div>
+                <div class="logo">Adrián<span>Simarro</span></div>
+            </a>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cabecera-pagina contenedor">
+            <h1 class="animar-entrada">Mis <span>Proyectos</span></h1>
+            <p>Una selección de mis trabajos más recientes y destacados.</p>
+        </div>
+
+        <section id="proyectos" class="proyectos-seccion">
+            <div class="contenedor">
+                <div class="carrusel-contenedor">
+                    <button class="carrusel-control anterior" id="anterior">❮</button>
+                    <div class="carrusel" id="carrusel-proyectos">
+                        <!-- Proyectos del carrusel -->
+                        <div class="proyecto-tarjeta" data-proyecto="1">
+                            <div class="proyecto-media">
+                                <img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 1">
+                                <div class="overlay">
+                                    <h3>Republic Asteroids</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="2">
+                            <div class="proyecto-media">
+                                <img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 2">
+                                <div class="overlay">
+                                    <h3>Scape from Randy</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="3">
+                            <div class="proyecto-media">
+                                <img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 3">
+                                <div class="overlay">
+                                    <h3>Otter Worlds</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="4">
+                            <div class="proyecto-media">
+                                <video loop muted autoplay>
+                                    <source src="recursos/videos/amura.mp4" type="video/mp4">
+                                </video>
+                                <div class="overlay">
+                                    <h3>Amura</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="5">
+                            <div class="proyecto-media">
+                                <video loop muted autoplay>
+                                    <source src="recursos/videos/repositorios.mp4" type="video/mp4">
+                                </video>
+                                <div class="overlay">
+                                    <h3>Repositorios Maven</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="6">
+                            <div class="proyecto-media">
+                                <video loop muted autoplay>
+                                    <source src="recursos/videos/jdbc.mp4" type="video/mp4">
+                                </video>
+                                <div class="overlay">
+                                    <h3>JDBC</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proyecto-tarjeta" data-proyecto="7">
+                            <div class="proyecto-media">
+                                <video loop muted autoplay>
+                                    <source src="recursos/videos/carrusel.mp4" type="video/mp4">
+                                </video>
+                                <div class="overlay">
+                                    <h3>Galerias Imagenes</h3>
+                                    <p>Ampliar</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carrusel-control siguiente" id="siguiente">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria-detallada" class="proyectos-desplegados">
+            <div class="contenedor">
+                <h2 class="subtitulo">Detalle de Trabajos</h2>
+
+                <div class="proyecto-bloque-detalle" id="detalle-1">
+                    <div class="detalle-media"><img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 1"></div>
+                    <div class="detalle-info">
+                        <h3>Republic Asteroids</h3>
+                        <p>Juego inspirado en el clásico Asteroids, con una ambientación más 3D basada en Star Wars.
+                            Incluye diferentes tipos de enemigos como tricazas o Vulture, además de un jefe final que
+                            aparece al alcanzar los 5000 puntos, siendo este una Providence. Incorpora mecánicas como
+                            recuperación de vidas a los 10000 puntos, combate contra el jefe y registro de récords,
+                            ofreciendo una experiencia frenética y clásica donde el jugador debe esquivar o destruir
+                            asteroides y eliminar enemigos para sobrevivir.</p>
+                        <ul class="lista-especificaciones">
+                            <li><strong>Motor:</strong> Unity</li>
+                            <li><strong>Lenguaje:</strong> C#</li>
+                            <li><strong>Temática:</strong> Star Wars</li>
+                        </ul>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle inversa" id="detalle-2">
+                        <div class="detalle-media">
+                            <img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 2">
+                        </div>
+                        <div class="detalle-info">
+                            <h3>Scape from Randy</h3>
+                            <p>Juego fanmade de terror inspirado en Slenderman, donde encarnas a un campista que debe
+                                escapar de un bosque habitado por Randy, un ser oscuro que aparece la noche de Halloween
+                                y comienza a cazar a sus presas. El objetivo es recolectar 10 caramelos robados por
+                                Randy para poder escapar en tu vehículo; si te atrapa antes, te conviertes en su próxima
+                                víctima. Fue desarrollado en Unity, con mecánicas clásicas, ambientación de bosque y
+                                estética low poly.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Motor:</strong> Unity</li>
+                                <li><strong>Estética:</strong> Low Poly</li>
+                                <li><strong>Género:</strong> Horror Game</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle" id="detalle-3">
+                        <div class="detalle-media">
+                            <img src="recursos/imagenes/work-in-progress.svg" alt="Proyecto 3">
+                        </div>
+                        <div class="detalle-info">
+                            <h3>Otter Worlds</h3>
+                            <p>Videojuego 2D de plataformas tipo endless runner en el que el jugador controla una nutria
+                                que busca salvar su hogar recolectando espíritus de peces ancestrales. El juego se basa
+                                en esquivar obstáculos mientras se recogen power-ups y peces que ayudan a superar el
+                                recorrido, teniendo como objetivo principal recolectar la mayor cantidad de peces
+                                posible.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Motor:</strong> Unity Engine</li>
+                                <li><strong>Tipo:</strong> 2D Platformer</li>
+                                <li><strong>Género:</strong> Endless Runner</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle inversa" id="detalle-4">
+                        <div class="detalle-media">
+                            <video controls class="video-local">
+                                <source src="recursos/videos/amura.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="detalle-info">
+                            <h3>Amura</h3>
+                            <p>Proyecto ganador del 1.º Premio del Hackathon Fitmakers, consistente en una aplicación
+                                móvil enfocada en fomentar el ejercicio en personas mayores mediante la gamificación.
+                                Cuenta con un diseño simple e intuitivo, historias que se desbloquean al completar
+                                rutinas fomentando también la lectura, un asistente de IA llamado Gertrudis y un panel
+                                para cuidadores o familiares que permite monitorizar el progreso del usuario.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Plataforma:</strong> Android</li>
+                                <li><strong>Tecnología:</strong> Kotlin / Firebase</li>
+                                <li><strong>Premio:</strong> 1.º - Hackathon Fitmakers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle" id="detalle-5">
+                        <div class="detalle-media">
+                            <video controls class="video-local">
+                                <source src="recursos/videos/repositorios.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="detalle-info">
+                            <h3>Repositorios Maven</h3>
+                            <p>Proyecto que unifica, bajo una estructura Modelo Vista Controlador, Servicio y
+                                Repositorio, distintos sistemas de almacenamiento de datos como MySQL, JSON, XML,
+                                MongoDB y PostgreSQL. Permite realizar operaciones CRUD sobre datos de películas, así
+                                como transferir la información entre diferentes repositorios. Además, cuenta con una
+                                función de backup que permite guardar versiones y estados de los datos para su posterior
+                                restauración.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Lenguaje:</strong> Java / Maven</li>
+                                <li><strong>Arquitectura:</strong> MVC + Repositorio</li>
+                                <li><strong>Bases de datos:</strong> Multi-DB (5 tipos)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle inversa" id="detalle-6">
+                        <div class="detalle-media">
+                            <video controls class="video-local">
+                                <source src="recursos/videos/jdbc.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="detalle-info">
+                            <h3>JDBC</h3>
+                            <p>Proyecto que utiliza la librería JDBC en Java siguiendo el patrón Modelo Vista
+                                Controlador (MVC) para generar cuestionarios aleatorios a partir de la lectura de un
+                                documento .txt, almacenando las preguntas en una base de datos MySQL. Según el valor
+                                ingresado por el usuario, se genera un cuestionario aleatorio con las preguntas
+                                guardadas en la base de datos y cuenta con comprobación de errores en las respuestas de
+                                tipo test.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Lenguaje:</strong> Java</li>
+                                <li><strong>Patrón:</strong> MVC</li>
+                                <li><strong>Base de datos:</strong> MySQL</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="proyecto-bloque-detalle" id="detalle-7">
+                        <div class="detalle-media">
+                            <video controls class="video-local">
+                                <source src="recursos/videos/carrusel.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="detalle-info">
+                            <h3>Galería de Imágenes</h3>
+                            <p>Aplicación desarrollada en Python utilizando PySide6 (Qt) que permite cargar y mostrar
+                                imágenes del sistema, así como imprimirlas utilizando el sistema de impresión del propio
+                                sistema operativo.</p>
+                            <ul class="lista-especificaciones">
+                                <li><strong>Lenguaje:</strong> Python</li>
+                                <li><strong>Framework:</strong> PySide6 (Qt)</li>
+                                <li><strong>Funcionalidad:</strong> Visor e Impresión</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer id="pie">
+        <div class="contenedor">
+            <p>&copy; 2026 Adrián Simarro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="modal-proyecto" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <div id="modal-info"></div>
+        </div>
+    </div>
+
+    <script src="js/principal.js"></script>
+</body>
+
+</html>
