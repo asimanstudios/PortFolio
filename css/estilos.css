@@ -327,6 +327,38 @@ body {
     padding: 100px 0;
 }
 
+.contenido-sobre-mi {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--fondo-glass);
+    padding: 60px;
+    border-radius: 30px;
+    border: 1px solid var(--borde-glass);
+    backdrop-filter: blur(10px);
+}
+
+.contenido-sobre-mi h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--azul-primario);
+    text-align: center;
+}
+
+.contenido-sobre-mi p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--gris-medio);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contenido-sobre-mi h3 {
+    font-size: 2rem;
+    margin: 50px 0 30px;
+    color: var(--blanco);
+    text-align: center;
+}
+
 .grid-sobre-mi {
     display: grid;
     grid-template-columns: 1fr 1fr;
