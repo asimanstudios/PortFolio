@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
             especificaciones: 'Unity, C#, Star Wars Theme'
         },
         '2': {
-            titulo: 'Scape from Randy',
+            titulo: 'Escape from Randy',
             descripcion: 'Juego fanmade de terror inspirado en Slenderman, donde encarnas a un campista que debe escapar de un bosque habitado por Randy, un ser oscuro que aparece la noche de Halloween y comienza a cazar a sus presas. El objetivo es recolectar 10 caramelos robados por Randy para poder escapar en tu vehículo; si te atrapa antes, te conviertes en su próxima víctima. Fue desarrollado en Unity, con mecánicas clásicas, ambientación de bosque y estética low poly.',
-            media: '<img src="recursos/imagenes/work-in-progress.svg" alt="Scape from Randy">',
+            media: '<img src="recursos/imagenes/work-in-progress.svg" alt="Escape from Randy">',
             especificaciones: 'Unity, Low Poly, Horror Game'
         },
         '3': {

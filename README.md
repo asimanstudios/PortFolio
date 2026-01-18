@@ -88,7 +88,7 @@
 
 ---
 
-### 👻 Scape from Randy
+### 👻 Escape from Randy
 > Horror game inspirado en Slenderman con estética low poly.
 
 - 🎃 Ambientación de Halloween
