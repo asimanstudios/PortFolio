@@ -87,6 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modal && modalInfo && tarjetas.length > 0) {
         tarjetas.forEach(tarjeta => {
             tarjeta.addEventListener('click', () => {
+                // Pausar todos los videos del carrusel
+                document.querySelectorAll('.proyecto-tarjeta video').forEach(video => {
+                    video.pause();
+                });
+
                 const id = tarjeta.getAttribute('data-proyecto');
                 const data = datosProyectos[id];
 
