@@ -628,14 +628,11 @@ body {
 #modal-info img,
 #modal-info video,
 #modal-info iframe {
-    max-width: 100%;
-    max-height: 60vh;
     width: 100%;
-    height: auto;
+    height: 400px;
     display: block;
     margin: 0 auto 20px;
     border-radius: 15px;
-    object-fit: contain;
     border: 1px solid var(--borde-glass);
 }
 
