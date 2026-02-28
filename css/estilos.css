@@ -263,6 +263,11 @@ body {
     height: 100%;
 }
 
+.proyecto-media img {
+    pointer-events: none;
+    user-select: none;
+}
+
 .proyecto-media img,
 .proyecto-media video,
 .proyecto-media iframe {
