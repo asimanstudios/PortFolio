@@ -264,7 +264,8 @@ body {
 }
 
 .proyecto-media img,
-.proyecto-media video {
+.proyecto-media video,
+.proyecto-media iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -565,7 +566,8 @@ body {
 }
 
 .detalle-media img,
-.detalle-media video {
+.detalle-media video,
+.detalle-media iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
