@@ -43,19 +43,19 @@ document.addEventListener('DOMContentLoaded', () => {
         '1': {
             titulo: 'Republic Asteroids',
             descripcion: 'Juego inspirado en el clásico Asteroids, con una ambientación más 3D basada en Star Wars. Incluye diferentes tipos de enemigos como tricazas o Vulture, además de un jefe final que aparece al alcanzar los 5000 puntos, siendo este una Providence. Incorpora mecánicas como recuperación de vidas a los 10000 puntos, combate contra el jefe y registro de récords, ofreciendo una experiencia frenética y clásica donde el jugador debe esquivar o destruir asteroides y eliminar enemigos para sobrevivir.',
-            media: '<img src="recursos/imagenes/work-in-progress.svg" alt="Republic Asteroids">',
+            media: '<iframe width="100%" height="400" src="https://www.youtube.com/embed/JznvqRCKs_w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             especificaciones: 'Unity, C#, Star Wars Theme'
         },
         '2': {
             titulo: 'Escape from Randy',
             descripcion: 'Juego fanmade de terror inspirado en Slenderman, donde encarnas a un campista que debe escapar de un bosque habitado por Randy, un ser oscuro que aparece la noche de Halloween y comienza a cazar a sus presas. El objetivo es recolectar 10 caramelos robados por Randy para poder escapar en tu vehículo; si te atrapa antes, te conviertes en su próxima víctima. Fue desarrollado en Unity, con mecánicas clásicas, ambientación de bosque y estética low poly.',
-            media: '<img src="recursos/imagenes/work-in-progress.svg" alt="Escape from Randy">',
+            media: '<iframe width="100%" height="400" src="https://www.youtube.com/embed/Cu-FhAGc3aw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             especificaciones: 'Unity, Low Poly, Horror Game'
         },
         '3': {
             titulo: 'Otter Worlds',
             descripcion: 'Videojuego 2D de plataformas tipo endless runner en el que el jugador controla una nutria que busca salvar su hogar recolectando espíritus de peces ancestrales. El juego se basa en esquivar obstáculos mientras se recogen power-ups y peces que ayudan a superar el recorrido, teniendo como objetivo principal recolectar la mayor cantidad de peces posible.',
-            media: '<img src="recursos/imagenes/work-in-progress.svg" alt="Otter Worlds">',
+            media: '<iframe width="100%" height="400" src="https://www.youtube.com/embed/qjoQdSv8i6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
             especificaciones: 'Unity Engine, 2D Platformer, Endless Runner'
         },
         '4': {
